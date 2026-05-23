@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="dfd-level-0" name="DFD Level 0">
+    <mxGraphModel dx="1414" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" value="Customer" vertex="1">
+          <mxGeometry height="80" width="170" x="10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="170" x="950" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;fontStyle=1;arcSize=18;" value="0&#xa;Sistem Lelang Fashion" vertex="1">
+          <mxGeometry height="200" width="340" x="430" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="c_to_s" edge="1" parent="1" source="customer" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=12;entryX=0.015;entryY=0.405;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" target="system" value="permintaan katalog, favorit, bid,&lt;br&gt;bukti bayar, respons second chance">
+          <mxGeometry relative="1" x="-0.0238" y="40" as="geometry">
+            <mxPoint x="-35" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_to_c" edge="1" parent="1" source="system" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=12;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.009;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" target="customer" value="data produk, status bid,&lt;br&gt;tagihan, hasil lelang,&lt;div&gt;penawaran kedua&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0081" y="-29" as="geometry">
+            <mxPoint x="-29" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_to_s" edge="1" parent="1" source="admin" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=12;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" target="system" value="data produk,&lt;div&gt;instruksi tutup lelang,&lt;div&gt;validasi pembayaran&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" y="30" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_to_a" edge="1" parent="1" source="system" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=12;exitX=0.991;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="admin" value="laporan produk, penawaran,&lt;div&gt;pemenang, pelunasan,&lt;/div&gt;&lt;div&gt;second chance&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0221" y="40" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
