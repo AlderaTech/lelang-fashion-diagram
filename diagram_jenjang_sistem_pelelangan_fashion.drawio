@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="diagram-jenjang" name="Diagram Jenjang">
+    <mxGraphModel dx="1571" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-8" edge="1" parent="1" source="dFhsl6or2OUj0CuAVVjL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dFhsl6or2OUj0CuAVVjL-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="650" />
+              <mxPoint x="595" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-9" edge="1" parent="1" source="dFhsl6or2OUj0CuAVVjL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dFhsl6or2OUj0CuAVVjL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-10" edge="1" parent="1" source="dFhsl6or2OUj0CuAVVjL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dFhsl6or2OUj0CuAVVjL-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="650" />
+              <mxPoint x="325" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-11" edge="1" parent="1" source="dFhsl6or2OUj0CuAVVjL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dFhsl6or2OUj0CuAVVjL-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="650" />
+              <mxPoint x="1125" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;span style=&quot;color: rgb(18, 18, 18); font-size: 18px; font-weight: 700;&quot;&gt;Sistem Pelelangan Produk Fashion Berbasis Web dan Mobile&lt;/span&gt;" vertex="1">
+          <mxGeometry height="250" width="250" x="600" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#FFFFFF);fontSize=18;" value="&lt;font&gt;1.0 Kelola Produk Lelang&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="240" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#FFFFFF);fontFamily=Helvetica;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;" value="4.0 Kelola Pelunasan dan Second Chance" vertex="1">
+          <mxGeometry height="170" width="170" x="510" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#FFFFFF);fontFamily=Helvetica;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;3.0 Tutup Lelang dan Tentukan Pemenang&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="780" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="dFhsl6or2OUj0CuAVVjL-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#FFFFFF);fontFamily=Helvetica;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;4.0 Kelola Pelunasan dan Second Chance&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="1040" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
